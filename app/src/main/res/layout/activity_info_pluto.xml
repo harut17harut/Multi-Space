@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@mipmap/bg"
+    android:layout_height="match_parent"
+    tools:context="com.space.multi.multispace.info_pluto">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.NoActionBar.AppBarOverlay"
+        android:id="@+id/appBarLayout7">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.NoActionBar.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:textColor="@color/White"
+        android:layout_height="wrap_content"
+        android:text="Pluto is a dwarf planet. A dwarf planet travels around, or orbits, the sun just like other planets. But it is much smaller.
+
+Clyde Tombaugh discovered Pluto in 1930. He was an astronomer from the United States. An astronomer is a scientist who studies stars and other objects in space. Venetia Burney named Pluto that same year. She was an 11-year-old girl from England.
+
+Pluto is not very big. It is only half as wide as the United States. Pluto is smaller than Earth's moon. This dwarf planet takes 248 Earth years to go around the sun. If you lived on Pluto, you would have to wait 248 Earth years to celebrate your first birthday. One day on Pluto is about 6 1/2 days on Earth.
+
+Pluto is about 40 times farther from the sun than Earth is. Pluto is in an area of space called the Kuiper (KY-per) Belt. Thousands of small, icy objects like Pluto but smaller are in the Kuiper Belt.
+
+This dwarf planet has five moons. Its largest moon is named Charon (KAIR-ən). Charon is about half the size of Pluto. Pluto's four other moons are named Kerberos, Styx, Nix and Hydra."
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@mipmap/pluto"
+        android:layout_above="@+id/textView14"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/appBarLayout7" />
+
+
+</RelativeLayout>

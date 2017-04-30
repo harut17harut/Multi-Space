@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/bg"
+    tools:context="com.space.multi.multispace.contacts">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.NoActionBar.AppBarOverlay"
+        android:id="@+id/appBarLayout3">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.NoActionBar.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/White"
+        android:textSize="30dp"
+        android:layout_below="@+id/appBarLayout3"
+        android:textStyle="italic"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="66dp"
+        android:text="Multi Space" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:textColor="@color/White"
+        android:text="Gmail: multispaceteam@gmail.com"
+        android:textSize="20dp"
+        android:layout_below="@+id/textView9"
+        android:layout_alignLeft="@+id/textView9"
+        android:layout_alignStart="@+id/textView9" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:textColor="@color/White"
+        android:text="Phone: +37477705554"
+        android:layout_below="@+id/textView6"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="52dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="54dp"
+        app:srcCompat="@mipmap/icon"
+        android:layout_alignRight="@+id/textView6"
+        android:layout_alignEnd="@+id/textView6"
+        android:layout_marginRight="12dp"
+        android:layout_marginEnd="12dp"
+        android:layout_below="@+id/textView8"
+        android:layout_alignLeft="@+id/textView6"
+        android:layout_alignStart="@+id/textView6"
+        android:layout_marginLeft="18dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="61dp"
+        android:layout_alignParentBottom="true" />
+
+
+</RelativeLayout>

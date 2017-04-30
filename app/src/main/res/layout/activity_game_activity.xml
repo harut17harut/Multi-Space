@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@mipmap/background"
+    android:layout_height="match_parent"
+    tools:context="com.space.multi.multispace.game_activity">
+
+
+    <TextView
+        android:id="@+id/textView5"
+        android:textSize="40dp"
+        android:textStyle="italic"
+        android:layout_width="wrap_content"
+        android:textColor="@color/White"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="Multi Space" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView5"
+        android:textColor="@color/White"
+        android:textSize="15dp"
+        android:layout_centerHorizontal="true"
+        android:text="Welcome Movses!" />
+
+    <ProgressBar
+        android:id="@+id/game_load_bar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView7"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="23dp" />
+
+</RelativeLayout>

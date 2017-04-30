@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@mipmap/bg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.space.multi.multispace.second_qusetion">
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@mipmap/hero"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginRight="148dp"
+        android:layout_marginEnd="148dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <ImageView
+        android:id="@+id/imageView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@mipmap/box"
+        android:layout_marginTop="123dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="229dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/imageView8"
+        android:layout_marginEnd="70dp"
+        android:layout_marginLeft="64dp"
+        android:layout_marginRight="70dp"
+        android:layout_marginStart="64dp"
+        android:text="Which is the nearest planet to the sun."
+        android:textSize="20dp" />
+
+
+    <TextView
+        android:id="@+id/attempts1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="46dp"
+        android:text="Attempts"
+        android:textColor="@color/White"
+        android:layout_alignTop="@+id/imageView9"
+        android:layout_alignRight="@+id/textView17"
+        android:layout_alignEnd="@+id/textView17" />
+
+    <EditText
+        android:id="@+id/answer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView17"
+        android:layout_marginEnd="32dp"
+        android:layout_marginLeft="41dp"
+        android:layout_marginRight="32dp"
+        android:layout_marginStart="41dp"
+        android:layout_marginTop="105dp"
+        android:ems="10"
+        android:hint="Your answer"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/check"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="51dp"
+        android:text="Check answer"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/attempts1"
+        android:layout_toStartOf="@+id/attempts1" />
+
+</RelativeLayout>

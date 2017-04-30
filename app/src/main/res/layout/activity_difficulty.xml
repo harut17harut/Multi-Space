@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@mipmap/bg"
+    android:layout_height="match_parent"
+    tools:context="com.space.multi.multispace.difficulty">
+
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:textStyle="italic"
+        android:textColor="@color/White"
+        android:layout_marginTop="78dp"
+        android:text="Choose the difficulty of the game"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/easy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textView16"
+        android:layout_alignLeft="@+id/textView16"
+        android:layout_alignRight="@+id/textView16"
+        android:layout_alignStart="@+id/textView16"
+        android:layout_below="@+id/textView16"
+        android:layout_marginEnd="62dp"
+        android:layout_marginLeft="75dp"
+        android:layout_marginRight="62dp"
+        android:layout_marginStart="75dp"
+        android:layout_marginTop="99dp"
+        android:text="Easy" />
+
+    <Button
+        android:id="@+id/medium"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/easy"
+        android:layout_alignLeft="@+id/easy"
+        android:layout_alignRight="@+id/easy"
+        android:layout_alignStart="@+id/easy"
+        android:layout_below="@+id/easy"
+        android:layout_marginTop="37dp"
+        android:text="Medium" />
+
+    <Button
+        android:id="@+id/hard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/medium"
+        android:layout_alignLeft="@+id/medium"
+        android:layout_alignRight="@+id/medium"
+        android:layout_alignStart="@+id/medium"
+        android:layout_below="@+id/medium"
+        android:layout_marginTop="38dp"
+        android:text="Hard" />
+</RelativeLayout>

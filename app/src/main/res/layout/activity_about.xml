@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@mipmap/bg"
+    android:layout_height="match_parent"
+    tools:context="com.space.multi.multispace.about">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.NoActionBar.AppBarOverlay"
+        android:id="@+id/appBarLayout4">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.NoActionBar.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/White"
+        android:textStyle="italic"
+        android:textSize="30dp"
+        android:layout_marginTop="52dp"
+        android:text="About Multi Space"
+        android:layout_below="@+id/appBarLayout4"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/White"
+        android:textSize="20dp"
+        android:text="@string/About_Multi_Space"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        app:srcCompat="@mipmap/icon"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="50dp" />
+
+
+</RelativeLayout>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@mipmap/bg"
+    android:layout_height="match_parent"
+    tools:context="com.space.multi.multispace.mars_info">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.NoActionBar.AppBarOverlay"
+        android:id="@+id/appBarLayout6">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.NoActionBar.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <TextView
+        android:textColor="@color/White"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="History of Mars (Greek: Ares) is the god of War. The planet probably got this name due to its red color; Mars is sometimes referred to as the Red Planet. (An interesting side note: the Roman god Mars was a god of agriculture before becoming associated with the Greek Ares; those in favor of colonizing and terraforming Mars may prefer this symbolism.) The name of the month March derives from Mars.
+
+Mars has been known since prehistoric times. Of course, it has been extensively studied with ground-based observatories. But even very large telescopes find Mars a difficult target, it's just too small. It is still a favorite of science fiction writers as the most favorable place in the Solar System (other than Earth!) for human habitation. But the famous canals seen by Lowell and others were, unfortunately, just as imaginary as Barsoomian princesses. The first spacecraft to visit Mars was Mariner 4 in 1965. Several others followed including Mars 2, the first spacecraft to land on Mars and the two Viking landers in 1976. Ending a long 20 year hiatus, Mars Pathfinder landed successfully on Mars on 1997 July 4. In 2004 the Mars Expedition Rovers "/>
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@mipmap/mars"
+        android:layout_marginLeft="98dp"
+        android:layout_marginStart="98dp"
+        android:layout_above="@+id/textView13"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+</RelativeLayout>

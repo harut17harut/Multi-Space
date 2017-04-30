@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@mipmap/bg"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.space.multi.multispace.venus_info">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.NoActionBar.AppBarOverlay"
+        android:id="@+id/appBarLayout8">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.NoActionBar.PopupOverlay" />
+
+    </android.support.design.widget.AppBarLayout>
+
+    <TextView
+        android:id="@+id/textView15"
+        android:textColor="@color/White"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Venus Inside and On Top
+Venus is the second planet from the Sun, and is Earth's closest neighbor in the solar system. Venus is the brightest object in the sky after the Sun and the Moon, and sometimes looks like a bright star in the morning or evening sky. The planet is a little smaller than Earth, and is similar to Earth inside. We can't see the surface of Venus from Earth, because it is covered with thick clouds. However, space missions to Venus have shown us that its surface is covered with craters, volcanoes, mountains, and big lava plains. The surface of Venus is not where you'd like to be, with temperatures that can melt lead, an atmosphere so thick it would crush you, and clouds of sulfuric acid that smell like rotten eggs to top it off!
+
+Air on Venus
+The atmosphere of Venus is very hot and thick. You would not survive a visit to the surface of the planet - you couldn't breathe the air, you would be crushed by the enormous weight of the atmosphere, and you would burn up in surface temperatures high enough to melt lead."
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@mipmap/venus"
+        android:layout_marginLeft="115dp"
+        android:layout_marginStart="115dp"
+        android:layout_marginRight="98dp"
+        android:layout_marginEnd="98dp"
+        android:layout_marginBottom="345dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/appBarLayout8"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+
+</RelativeLayout>

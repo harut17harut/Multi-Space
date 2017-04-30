@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Multi Space</string>
+    <string name="action_settings">Settings</string>
+    <string name="Click_here"><u>Click here</u>.</string>
+    <string name="title_activity_register">register</string>
+    <string name="title_activity_loading">loading</string>
+    <string name="title_activity_game_activity">game_activity</string>
+    <string name="title_activity_game_menu">game_menu</string>
+    <string name="title_activity_settings">settings</string>
+    <string name="title_activity_contacts">Contacts</string>
+    <string name="title_activity_about">about</string>
+    <string name="About_Multi_Space">Multi Space is educational program. Multi Space program contains 3 parts. 1st part is game with questions and answers. Second part is informational part that you could add or edit information in the mobile app. Third part about dangers in beach.</string>
+    <string name="title_activity_information">information</string>
+    <string name="title_activity_mars_info">mars_info</string>
+    <string name="title_activity_info_pluto">info_pluto</string>
+    <string name="title_activity_venus_info">venus_info</string>
+    <string name="title_activity_game">game</string>
+    <string name="title_activity_difficulty">difficulty</string>
+    <string name="title_activity_easy_game">easy_game</string>
+    <string name="title_activity_second_qusetion">second_qusetion</string>
+</resources>
